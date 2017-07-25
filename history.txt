@@ -88,3 +88,184 @@
    88  ls
    89  cat history.txt
    90  history >> history.txt
+    1  git config --global user.name "lizongkai-big"
+    2  git config --global user.email "lizongkai@aliyun.com"
+    3  ls
+    4  cd ..
+    5  ls
+    6  cd
+    7  pwd
+    8  ls
+    9  ls
+   10  cd ..
+   11  ls
+   12  cd ..
+   13  ls
+   14  cd
+   15  ls
+   16  cd
+   17  pwd
+   18  mkdir learngit
+   19  ls
+   20  cd learngit
+   21  ls
+   22  pwd
+   23  git unit
+   24  git init
+   25  ls -ah
+   26  git add Readme.txt
+   27  git commit -m "wrote a readme file"
+   28  git status
+   29  git status
+   30  git diff Readme.txt
+   31  git add readme.txt
+   32  git status
+   33  git add Readme.txt
+   34  git status
+   35  git status
+   36  git commit
+   37  git commit -a "insert two lines"
+   38  git commit -m "insert two lines"
+   39  git status
+   40  git diff Readme.txt
+   41  git add Readme.txt
+   42  git commit -m "Delete one line"
+   43  git status
+   44  git log
+   45  git add Readme.txt
+   46  git commit -m "Only for test"
+   47  git log
+   48  git log --pretty=oneline
+   49  git reset --hard HEAD^
+   50  git log
+   51  git reset --hard 5f8e598fbd
+   52  git reset --hard HEAD^
+   53  git log
+   54  git reset --hard HEAD^
+   55  git log
+   56  git reset --hard 5f8e598fbd
+   57  cat Readme.txt
+   58  git log
+   59  git log --pretty=oneline
+   60  git log --pretty = oneline
+   61  git log --pretty=oneline
+   62  git
+   63  git show
+   64  git
+   65  git reflog
+   66  git add Readme.txt
+   67  git commit -m "add git, these 3 character"
+   68  git log
+   69  git reset HEAD^
+   70  git log
+   71  git log
+   72  git relog
+   73  git reflog
+   74  git reset --hard HEAD^
+   75  cat Readme.txt 
+   76  git reset --hard 7b592dd
+   77  cat Readme.txt 
+   78  git log
+   79  git status
+   80  git status
+   81  git status
+   82  git add Readme.txt
+   83  git add LICENSE
+   84  git commit -m "Add LICENSE and change readme.txt"
+   85  git status
+   86  history
+   87  history -> history.txt
+   88  ls
+   89  cat history.txt
+   90  history >> history.txt
+   91  git status
+   92  git add history.txt
+   93  git commit -m "record some history"
+   94  git status
+   95  vim 
+   96  vim Readme.txt
+   97  git status
+   98  vim Readme.txt
+   99  git status
+  100  git checkout -- Readme.txt
+  101  vim Readme.txt
+  102  vim Readme.txt
+  103  git add Readme.txt
+  104  vim Readme.txt
+  105  git checkout -- Readme.txt
+  106  vim Readme.txt
+  107  git checkout -- Readme.txt
+  108  vim Readme.txt
+  109  git status
+  110  git log
+  111  git reset --hard 3a508fb
+  112  vim Readme.txt
+  113  vim Readme.txt
+  114  git add Readme.txt
+  115  git status
+  116  git reset HEAD Readme.txt
+  117  cat Readme.txt
+  118  git status
+  119  git checkout -- Readme.txt
+  120  cat Readme.txt
+  121  ifconfig
+  122  git
+  123  mv Readme.txt readme.txt
+  124  ls
+  125  git status
+  126  git log
+  127  git --pretty=oneline
+  128  git log --pretty=oneline
+  129  ls
+  130  vim readme.txt
+  131  git status
+  132  git --checkout readme.txt
+  133  git -- checkout readme.txt
+  134  git checkout -- readme.txt
+  135  ls
+  136  git checkout -- Readme.txt
+  137  ls
+  138  cat readme.txt
+  139  cat Readme.txt
+  140  ls
+  141  vim readme.txt
+  142  git status
+  143  git add readme.txt
+  144  git status
+  145  git add Readme.txt
+  146  git staut
+  147  git status 
+  148  git reset HEAD readme.txt
+  149  cat Readme.txt
+  150  git checkout -- Readme.txt
+  151  cat Readme.txt
+  152  git status
+  153  cat Readme.txt
+  154  git checkout -- Readme.txt
+  155  cat Readme.txt
+  156  git status
+  157  git reset HEAD Readme.txt
+  158  git status
+  159  git checkout -- Readme.txt
+  160  cat Readme.txt
+  161  history 
+  162  cat Readme.txt
+  163  vim Readme.txt
+  164  git add Readme.txt
+  165  git status
+  166  git reset HEAD Readme.txt
+  167  git status
+  168  git checkout -- Readme.txt
+  169  cat Readme.txt
+  170  touch test.txt
+  171  ls
+  172  git add test.txt
+  173  git commit -m "add test.txt"
+  174  git status
+  175  rm test.txt
+  176  git status
+  177  git rm readme.txt
+  178  git rm test.txt
+  179  git commit -m "
+"
+  180  history >> history.txt
