@@ -1,0 +1,100 @@
+  439  git checkout 
+  440  git checkout -- Readme.txt
+  441  git branch
+  442  git checkout tt
+  443  git status
+  444  git checkout master
+  445  git checkout tt
+  446  git add Readme.txt
+  447  git commit -m "practice"
+  448  git checkout master
+  449  git merger --on-ff -m "practer for merge's no-ff" 
+  450  git merger --on-ff -m "practer for merge's no-ff" tt
+  451  git merge --on-ff -m "practer for merge's no-ff"
+  452  git merge --on-ff -m "practer for merge's no-ff" tt
+  453  git merge --no-ff -m "practer for merge's no-ff"
+  454  git merge --no-ff -m "practer for merge's no-ff" dev
+  455  git merge --no-ff -m "practer for merge's no-ff" tt
+  456  git status
+  457  git log --graph --pretty=oneline --abbrev
+  458  git reset --hard a218a76
+  459  git log --graph --pretty=oneline --abbrev
+  460  git branch
+  461  git checkout -- Readme.txt
+  462  git status
+  463  git checkout tt
+  464  git status
+  465  git status
+  466  git stash
+  467  git status
+  468  git log --graph --pretty=oneline --abbrev
+  469  git checkout master
+  470  git checkout -b issue-101
+  471  git status 
+  472  git add Readme.txt
+  473  git commit -m "Learn bug branch"
+  474  git branch
+  475  git checkout master
+  476  git merge --no-ff -m "have fixed 101 bug" issue-101
+  477  git checkout tt
+  478  git branch
+  479  git stash list
+  480  git stash apply
+  481  git log --graph --pretty=oneline --abbrev-commit
+  482  git stash drop
+  483  git stash list
+  484  git status
+  485  git checkout --
+  486  git status
+  487  git status
+  488  git checkout --
+  489  git status
+  490  history 
+  491  history ?
+  492  hisotry 10
+  493  hisotry -10
+  494  ls
+  495  cd learngit
+  496  ls
+  497  history
+  498  history 10
+  499  history 20
+  500  git stash list
+  501  git log --graph --pretty=oneline --abbrev-commit
+  502  git status
+  503  git diff 4e2d29d
+  504  git diff HEAD^
+  505  git diff HEAD
+  506  git stash list
+  507  git stage
+  508  git stage Readme.txt 
+  509  git status
+  510  git stash
+  511  git status
+  512  git add Readme.txt
+  513  git commit -m "fixed bugs"
+  514  git reset --hard 4e2d29d
+  515  cat Readme.txt
+  516  git stash list
+  517  git checkout -b issue-101
+  518  git branch
+  519  git checkout -b issue-102
+  520  git add Readme.txt
+  521  git commit -m "have fixed issue-102"
+  522  git checkout master
+  523  git merge --no-ff -m "merged bug fix 102" issue-102
+  524  git merge --no-ff -m "merged bug fix 102" issue-102
+  525  git merge issue-102
+  526  git log --graph --pretty=oneline --abbrev-commit
+  527  history 20
+  528  git add Readme.txt
+  529  git status
+  530  git checkout -- Readme.txt
+  531  git status
+  532  git add Readme.txt
+  533  git commit -m "I don't know where is the mistake>_<"
+  534  git log --graph --pretty=oneline --abbrev-commit
+  535  git branch
+  536  git reset --hard a218a76
+  537  git log --graph --pretty=oneline --abbrev-commit
+  538  history 100 >> h.txt
